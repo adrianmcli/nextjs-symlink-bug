@@ -1,0 +1,1 @@
+export default { "text": "I am from symlink-folder" }
