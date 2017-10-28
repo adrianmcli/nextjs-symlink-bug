@@ -8,7 +8,7 @@ Inside each of these folders is a near-identical javascript file that exports a 
 
 According to [this Github issue comment](https://github.com/webpack/webpack/issues/1643#issuecomment-317436595), I needed to set `resolve.symlinks: false` in my webpack configuration. So that's exactly what I did inside `next.config.js`:
 
-``js
+```js
 module.exports = {
   webpack: (config, { buildId, dev }) => {
     config.resolve.symlinks = false
